@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+DBD::Oracle::Server	Server.pm	/^package DBD::Oracle::Server;$/;"	p
+DBD::Oracle::Server::Connection	Server.pm	/^package DBD::Oracle::Server::Connection;$/;"	p
+DBD::Oracle::Server::Connection::Dbi	Server.pm	/^package DBD::Oracle::Server::Connection::Dbi;$/;"	p
+DBD::Oracle::Server::Connection::Sqlplus	Server.pm	/^package DBD::Oracle::Server::Connection::Sqlplus;$/;"	p
+DBD::Oracle::Server::Connection::Sqlrelay	Server.pm	/^package DBD::Oracle::Server::Connection::Sqlrelay;$/;"	p
+DBD::Oracle::Server::Database	Server/Database.pm	/^package DBD::Oracle::Server::Database;$/;"	p
+DBD::Oracle::Server::Database::Tablespace	Server/Database/Tablespace.pm	/^package DBD::Oracle::Server::Database::Tablespace;$/;"	p
+DBD::Oracle::Server::Database::Tablespace::Datafile	Server/Database/Tablespace/Datafile.pm	/^package DBD::Oracle::Server::Database::Tablespace::Datafile;$/;"	p
+DBD::Oracle::Server::Database::Tablespace::Segment	Server/Database/Tablespace/Segment.pm	/^package DBD::Oracle::Server::Database::Tablespace::Segment;$/;"	p
+DBD::Oracle::Server::Instance	Server/Instance.pm	/^package DBD::Oracle::Server::Instance;$/;"	p
+DBD::Oracle::Server::Instance::Enqueue	Server/Instance/Enqueue.pm	/^package DBD::Oracle::Server::Instance::Enqueue;$/;"	p
+DBD::Oracle::Server::Instance::Event	Server/Instance/Event.pm	/^package DBD::Oracle::Server::Instance::Event;$/;"	p
+DBD::Oracle::Server::Instance::PGA	Server/Instance/PGA.pm	/^package DBD::Oracle::Server::Instance::PGA;$/;"	p
+DBD::Oracle::Server::Instance::PGA::Internals	Server/Instance/PGA.pm	/^package DBD::Oracle::Server::Instance::PGA::Internals;$/;"	p
+DBD::Oracle::Server::Instance::SGA	Server/Instance/SGA.pm	/^package DBD::Oracle::Server::Instance::SGA;$/;"	p
+DBD::Oracle::Server::Instance::SGA::DataBuffer	Server/Instance/SGA/DataBuffer.pm	/^package DBD::Oracle::Server::Instance::SGA::DataBuffer;$/;"	p
+DBD::Oracle::Server::Instance::SGA::Latch	Server/Instance/SGA/Latch.pm	/^package DBD::Oracle::Server::Instance::SGA::Latch;$/;"	p
+DBD::Oracle::Server::Instance::SGA::RedoLogBuffer	Server/Instance/SGA/RedoLogBuffer.pm	/^package DBD::Oracle::Server::Instance::SGA::RedoLogBuffer;$/;"	p
+DBD::Oracle::Server::Instance::SGA::RollbackSegments	Server/Instance/SGA/RollbackSegments.pm	/^package DBD::Oracle::Server::Instance::SGA::RollbackSegments;$/;"	p
+DBD::Oracle::Server::Instance::SGA::SharedPool	Server/Instance/SGA/SharedPool.pm	/^package DBD::Oracle::Server::Instance::SGA::SharedPool;$/;"	p
+DBD::Oracle::Server::Instance::SGA::SharedPool::DictionaryCache	Server/Instance/SGA/SharedPool/DictionaryCache.pm	/^package DBD::Oracle::Server::Instance::SGA::SharedPool::DictionaryCache;$/;"	p
+DBD::Oracle::Server::Instance::SGA::SharedPool::LibraryCache	Server/Instance/SGA/SharedPool/LibraryCache.pm	/^package DBD::Oracle::Server::Instance::SGA::SharedPool::LibraryCache;$/;"	p
+DBD::Oracle::Server::Instance::Sysstat	Server/Instance/Sysstat.pm	/^package DBD::Oracle::Server::Instance::Sysstat;$/;"	p
+DESTROY	Server.pm	/^sub DESTROY {$/;"	s
+abbreviate	Server/Instance/Event.pm	/^  sub abbreviate {$/;"	s
+add_datafile	Server/Database/Tablespace/Datafile.pm	/^  sub add_datafile {$/;"	s
+add_enqueue	Server/Instance/Enqueue.pm	/^  sub add_enqueue {$/;"	s
+add_event	Server/Instance/Event.pm	/^  sub add_event {$/;"	s
+add_latch	Server/Instance/SGA/Latch.pm	/^  sub add_latch {$/;"	s
+add_nagios	Server.pm	/^sub add_nagios {$/;"	s
+add_nagios_critical	Server.pm	/^sub add_nagios_critical {$/;"	s
+add_nagios_ok	Server.pm	/^sub add_nagios_ok {$/;"	s
+add_nagios_unknown	Server.pm	/^sub add_nagios_unknown {$/;"	s
+add_nagios_warning	Server.pm	/^sub add_nagios_warning {$/;"	s
+add_perfdata	Server.pm	/^sub add_perfdata {$/;"	s
+add_segment	Server/Database/Tablespace/Segment.pm	/^  sub add_segment {$/;"	s
+add_server	Server.pm	/^  sub add_server {$/;"	s
+add_sysstat	Server/Instance/Sysstat.pm	/^  sub add_sysstat {$/;"	s
+add_tablespace	Server/Database/Tablespace.pm	/^  sub add_tablespace {$/;"	s
+begindiff	Server/Instance/Event.pm	/^  sub begindiff {$/;"	s
+calculate_result	Server.pm	/^sub calculate_result {$/;"	s
+check_thresholds	Server.pm	/^sub check_thresholds {$/;"	s
+clear_datafiles	Server/Database/Tablespace/Datafile.pm	/^  sub clear_datafiles {$/;"	s
+clear_segments	Server/Database/Tablespace/Segment.pm	/^  sub clear_segments {$/;"	s
+convert	Server.pm	/^sub convert {$/;"	s
+create_commandfile	Server.pm	/^sub create_commandfile {$/;"	s
+dbconnect	Server.pm	/^sub dbconnect {$/;"	s
+debug	Server.pm	/^sub debug {$/;"	s
+dump	Server.pm	/^sub dump {$/;"	s
+execute	Server.pm	/^sub execute {$/;"	s
+fetchall_array	Server.pm	/^sub fetchall_array {$/;"	s
+fetchrow_array	Server.pm	/^sub fetchrow_array {$/;"	s
+func	Server.pm	/^sub func {$/;"	s
+individualize	Server/Instance/Event.pm	/^  sub individualize {$/;"	s
+init	Server.pm	/^sub init {$/;"	s
+init	Server/Database.pm	/^sub init {$/;"	s
+init	Server/Database/Tablespace.pm	/^sub init {$/;"	s
+init	Server/Database/Tablespace/Datafile.pm	/^sub init { $/;"	s
+init	Server/Database/Tablespace/Segment.pm	/^sub init {$/;"	s
+init	Server/Instance.pm	/^sub init {$/;"	s
+init	Server/Instance/Enqueue.pm	/^sub init {$/;"	s
+init	Server/Instance/Event.pm	/^sub init {$/;"	s
+init	Server/Instance/PGA.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/DataBuffer.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/Latch.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/RedoLogBuffer.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/RollbackSegments.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/SharedPool.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/SharedPool/DictionaryCache.pm	/^sub init {$/;"	s
+init	Server/Instance/SGA/SharedPool/LibraryCache.pm	/^sub init {$/;"	s
+init	Server/Instance/Sysstat.pm	/^sub init {$/;"	s
+init_datafiles	Server/Database/Tablespace/Datafile.pm	/^  sub init_datafiles {$/;"	s
+init_enqueues	Server/Instance/Enqueue.pm	/^  sub init_enqueues {$/;"	s
+init_events	Server/Instance/Event.pm	/^  sub init_events {$/;"	s
+init_invalid_objects	Server/Database.pm	/^sub init_invalid_objects {$/;"	s
+init_latches	Server/Instance/SGA/Latch.pm	/^  sub init_latches {$/;"	s
+init_nagios	Server.pm	/^sub init_nagios {$/;"	s
+init_segments	Server/Database/Tablespace/Segment.pm	/^  sub init_segments {$/;"	s
+init_shared_pool_free	Server/Instance/SGA/SharedPool.pm	/^sub init_shared_pool_free {$/;"	s
+init_shared_pool_parser	Server/Instance/SGA/SharedPool.pm	/^sub init_shared_pool_parser {$/;"	s
+init_shared_pool_reloads	Server/Instance/SGA/SharedPool.pm	/^sub init_shared_pool_reloads {$/;"	s
+init_stale_objects	Server/Database.pm	/^sub init_stale_objects {$/;"	s
+init_sysstats	Server/Instance/Sysstat.pm	/^  sub init_sysstats {$/;"	s
+init_tablespaces	Server/Database/Tablespace.pm	/^  sub init_tablespaces {$/;"	s
+instance_rac	Server.pm	/^sub instance_rac {$/;"	s
+instance_thread	Server.pm	/^sub instance_thread {$/;"	s
+load_state	Server.pm	/^sub load_state {$/;"	s
+longname	Server/Instance/Enqueue.pm	/^sub longname {$/;"	s
+merge_nagios	Server.pm	/^sub merge_nagios {$/;"	s
+nagios	Server.pm	/^sub nagios {$/;"	s
+nagios	Server/Database.pm	/^sub nagios {$/;"	s
+nagios	Server/Database/Tablespace.pm	/^sub nagios {$/;"	s
+nagios	Server/Database/Tablespace/Datafile.pm	/^sub nagios {$/;"	s
+nagios	Server/Database/Tablespace/Segment.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/Enqueue.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/Event.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/PGA.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/DataBuffer.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/Latch.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/RedoLogBuffer.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/RollbackSegments.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/SharedPool.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/SharedPool/DictionaryCache.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/SGA/SharedPool/LibraryCache.pm	/^sub nagios {$/;"	s
+nagios	Server/Instance/Sysstat.pm	/^sub nagios {$/;"	s
+new	Server.pm	/^sub new {$/;"	s
+new	Server/Database.pm	/^sub new {$/;"	s
+new	Server/Database/Tablespace.pm	/^sub new {$/;"	s
+new	Server/Database/Tablespace/Datafile.pm	/^sub new {$/;"	s
+new	Server/Database/Tablespace/Segment.pm	/^sub new {$/;"	s
+new	Server/Instance.pm	/^sub new {$/;"	s
+new	Server/Instance/Enqueue.pm	/^sub new {$/;"	s
+new	Server/Instance/Event.pm	/^sub new {$/;"	s
+new	Server/Instance/PGA.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/DataBuffer.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/Latch.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/RedoLogBuffer.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/RollbackSegments.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/SharedPool.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/SharedPool/DictionaryCache.pm	/^sub new {$/;"	s
+new	Server/Instance/SGA/SharedPool/LibraryCache.pm	/^sub new {$/;"	s
+new	Server/Instance/Sysstat.pm	/^sub new {$/;"	s
+requires_version	Server.pm	/^sub requires_version {$/;"	s
+return_datafiles	Server/Database/Tablespace/Datafile.pm	/^  sub return_datafiles {$/;"	s
+return_enqueues	Server/Instance/Enqueue.pm	/^  sub return_enqueues {$/;"	s
+return_events	Server/Instance/Event.pm	/^  sub return_events {$/;"	s
+return_first_server	Server.pm	/^  sub return_first_server() {$/;"	s
+return_latches	Server/Instance/SGA/Latch.pm	/^  sub return_latches {$/;"	s
+return_segments	Server/Database/Tablespace/Segment.pm	/^  sub return_segments {$/;"	s
+return_servers	Server.pm	/^  sub return_servers {$/;"	s
+return_sysstats	Server/Instance/Sysstat.pm	/^  sub return_sysstats {$/;"	s
+return_tablespaces	Server/Database/Tablespace.pm	/^  sub return_tablespaces {$/;"	s
+save_state	Server.pm	/^sub save_state {$/;"	s
+system_oldvartmpdir	Server.pm	/^sub system_oldvartmpdir {$/;"	s
+system_tmpdir	Server.pm	/^sub system_tmpdir {$/;"	s
+system_vartmpdir	Server.pm	/^sub system_vartmpdir {$/;"	s
+tnsping	Server.pm	/^sub tnsping {$/;"	s
+trace	Server.pm	/^sub trace {$/;"	s
+valdiff	Server.pm	/^sub valdiff {$/;"	s
+version_is_minimum	Server.pm	/^sub version_is_minimum {$/;"	s
+windows_server	Server.pm	/^sub windows_server {$/;"	s
